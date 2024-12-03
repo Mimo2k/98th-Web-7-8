@@ -35,9 +35,9 @@ lessons.forEach((lesson) => {
     <div class="card text-center">
       <div class="card-body">
         <h5 class="card-title">${lesson.name}</h5>
-        <a href="../${lesson.id}/index.html" target="_blank" class="btn btn-primary mb-2">View Main Demo</a>
-        <a href="../${lesson.id}/basic/index.html" target="_blank" class="btn btn-secondary mb-2">View Basic Demo</a>
-        <a href="../${lesson.id}/resources/index.html" target="_blank" class="btn btn-warning">View Resources</a>
+        <a href="./${lesson.id}/index.html" target="_blank" class="btn btn-primary mb-2">View Main Demo</a>
+        <a href="./${lesson.id}/basic/index.html" target="_blank" class="btn btn-secondary mb-2">View Basic Demo</a>
+        <a href="./${lesson.id}/" target="_blank" class="btn btn-warning">View Resources</a>
       </div>
     </div>
   `;
